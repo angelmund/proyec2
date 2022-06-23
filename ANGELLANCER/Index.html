@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Web</title>
+    <!--Se puede aplicar el normalize en el preload-->
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <!--Se normaliza con el css de normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+      <!--TIPO DE LETRA  de Diseñador web--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+   
+    <!--CARGAR LA HOJA DE ESTILOS-->
+    <!--El preload es para hacer más rápida la página web-->
+    <link rel="preload" href="CSS/styles.css" as="style"> <!--- para optimizar al cargar los styles el preload--->
+    <link href="CSS/styles.css " rel="stylesheet" type="text/css"> <!--para cargar los styles de la página así como para elegir ubicación y el tipo de archivo-->
+
+</head>
+<body>
+  <header>
+    <h1 class="titulo"  >Angel 
+    <span>Freelancer</span></h1>
+  </header>
+  
+  <div class="nav-bg"> <!--Es el color de fondo-->
+    <nav class="navegacion-principal contenedor"> <!--ES LA BARRA AZUL-->
+      <a href="#">Inicio</a>
+      <a href="#">Sobre mi</a>
+      <a href="#">Clientes</a>
+      <a href="#">Contactos</a>
+    </nav>
+  </div>
+
+
+
+  <section class="hero">
+    <div class="contenido-hero">
+      <h2> Diseño y Desarrollo Web <span>Freelancer</span></h2>
+        <div class="ubicacion"> <!--Creamos una clase ubicación para poder mover el texto -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="11" r="3" />
+            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+          </svg>
+          <p>Xalapa, Veracruz</p>
+        </div>
+      <a class="boton" href="#">Contactar</a>
+    </div> <!--.contenido-hero-->
+  </section>
+
+
+
+  <main class="contenedor sombra">
+    <h2>Mis servicios</h2>
+    <div class="servicios"> <!--Aquí empieza la clase servicios-->  
+    <section class="servicio">
+      <h3>Diseño Web</h3>
+      <div class="iconos">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+        <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+        <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+        <line x1="11" y1="6" x2="11" y2="6.01" />
+        <line x1="13" y1="18" x2="13" y2="18.01" />
+      </svg>
+    </div>
+      <p>Este es un sitio web elaborado por Angel M.F </p>
+    </section>
+    
+    
+    <section class="servicio">
+      <h3>Aplicaciones  Web</h3>
+      <div class="iconos">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="4" width="6" height="6" rx="1" />
+        <rect x="4" y="14" width="6" height="6" rx="1" />
+        <rect x="14" y="14" width="6" height="6" rx="1" />
+        <line x1="14" y1="7" x2="20" y2="7" />
+        <line x1="17" y1="4" x2="17" y2="10" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="4" y1="10" x2="4" y2="16" />
+        <line x1="20" y1="10" x2="20" y2="16" />
+        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+        <line x1="8" y1="3" x2="9" y2="5" />
+        <line x1="16" y1="3" x2="15" y2="5" />
+        <line x1="9" y1="18" x2="9" y2="21" />
+        <line x1="15" y1="18" x2="15" y2="21" />
+      </svg>
+    </div>
+      <p>Este es un sitio web elaborado por Angel </p>
+    </section>  
+
+    <section class="servicio">
+      <h3>E-Commerce</h3>
+      <div class="iconos">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="3" y="4" width="18" height="4" rx="2" />
+        <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+        <line x1="10" y1="12" x2="14" y2="12" />
+      </svg>
+      </div>
+      <p>Este es un sitio web elaborado por Angel </p>
+    </section>
+  </div> <!--Aquí termina la clase servicios-->  
+ 
+
+  <section>
+    <h2>Contacto</h2>
+
+
+    <form class="formulario"> <!--Este es el contenedor de los campos-->
+
+       <fieldset>
+         <legend>Contactanos llenando todos los campos correctamente</legend>
+      <div class="contenedor-campos">
+         <div class="campo">
+          <label>Nombre</label>
+          <input class="input-text" type="text" placeholder="Nombre">
+         </div>
+
+        <div class="campo">
+         <label>Teléfono</label>
+         <input class="input-text" type="number" placeholder="Teléfono">
+        </div>
+
+        <div class="campo">
+         <label>Correo</label>
+         <input class="input-text" type="email" placeholder="Correo Electrónico">
+        </div>
+        
+        <div class="campo">
+          <label>Mensaje</label>
+          <textarea class="input-text"></textarea>
+        </div>
+
+      </div> <!--Este es el contenedor de los campos-->
+
+        <div class="alinear-derecha flex">
+          <input class="boton w-100" type="submit" value="Enviar">
+        </div>
+      
+
+      </fieldset>
+    </form>
+
+
+  </section>
+</main>
+  <footer class="footer">
+    <p>Todos los derechos reservados, Angel Mundo</p>
+
+  </footer>
+  
+</body>
+</html>
